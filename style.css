@@ -77,3 +77,64 @@
     width: 100%;
     height: 100%;
 }
+.div-ofertas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 40px 50px 40px 50px;
+    gap: 70px;
+}
+.titulo-ofertas{
+    padding: 20px;
+    font-family: "Ojuju", sans-serif;
+    font-size: 35px;
+}
+.sub-titulo-ofertas{
+    font-family: "Ojuju", sans-serif;
+    font-size: 20px;
+}
+.paragrafo-ofertas{
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+}
+.img-depoimentos{
+    width: 100px;
+}
+.depoimentos{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+}
+.img2-depoimentos{
+    margin: 20px;
+    width: 300px;
+}
+.div1-depoimentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div2-depoimentos{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.div3-depoimentos{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.titulo-depoimentos{
+    font-family: "Ojuju", sans-serif;
+    font-size: 44px;
+}
+.paragrafo-depoimentos{
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+}
+.contato{
+    display: flex;
+    justify-content: space-between;
+}
