@@ -167,3 +167,19 @@
    flex-direction: column;
    gap: 10px;
 }
+@media (max-width: 900px){
+    .titulo-home{
+        font-size: 50px;
+    }
+    .backgraound{
+        height: 50%;
+    }
+    .div-sobre{
+         margin: 40px;
+         gap: 200px;
+    }
+    .div-ofertas{
+        flex-direction: column;
+        text-align: center;
+    }
+}
