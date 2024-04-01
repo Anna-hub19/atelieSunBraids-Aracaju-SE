@@ -156,6 +156,9 @@
     font-family: "Nunito", sans-serif;
     font-size: 16px;
 }
+.link-rodape:hover{
+    color:brown;
+}
 .div-rodape1{
     display: flex;
     flex-direction: column;
@@ -182,4 +185,35 @@
         flex-direction: column;
         text-align: center;
     }
+}
+@media (max-width: 500px){
+    .home{
+      flex-direction: column;
+    }
+    .div-sobre{
+        flex-direction: column;
+        justify-content:flex-end;
+        gap: 0px;
+        align-items: center;
+    }
+    .backgraound{
+        display: none;
+    }
+    .titulo-sobre{
+        padding-top: 0px;
+    }
+    .img-ofertas{
+        width: 250px;
+    }
+    .depoimentos{
+        flex-direction: column;
+        margin: 50px;
+    }
+   .contato{
+    flex-direction: column;
+    align-items: center;
+   }
+   .img-rodape{
+    width: 300px;
+}
 }
