@@ -170,6 +170,10 @@
    flex-direction: column;
    gap: 10px;
 }
+#hiden-img-celular{
+    display: none;
+    padding: 2px;
+}
 @media (max-width: 900px){
     .titulo-home{
         font-size: 50px;
@@ -215,5 +219,11 @@
    }
    .img-rodape{
     width: 300px;
+}
+#hiden-img-celular{
+    display:block;
+}
+#hiden-img-pc{
+    display: none;
 }
 }
