@@ -29,6 +29,10 @@
     border: 2px solid #000;
     padding: 0px 15px 0px 15px;
 }
+.contato-home:hover{
+    background-color: #000;
+    color: #fff;
+}
 .div1-home{
     display: flex;
     flex-direction: column;
@@ -153,11 +157,14 @@
 .link-rodape{
     text-decoration: none;
     color: #000;
+    border: 2px solid #000;
+    border-radius: 8px;
     font-family: "Nunito", sans-serif;
     font-size: 16px;
 }
 .link-rodape:hover{
-    color:brown;
+    background-color: #000;
+    color: #fff;
 }
 .div-rodape1{
     display: flex;
@@ -174,6 +181,10 @@
     display: none;
     padding: 2px;
 }
+.direitos-autorais{
+    display: flex;
+    justify-content: center;
+ }
 @media (max-width: 900px){
     .titulo-home{
         font-size: 50px;
@@ -220,6 +231,7 @@
    .img-rodape{
     width: 300px;
 }
+
 #hiden-img-celular{
     display:block;
 }
