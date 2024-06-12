@@ -231,6 +231,9 @@
    .img-rodape{
     width: 300px;
 }
+.direitos-autorais{
+    font-size: 14px;
+}
 
 #hiden-img-celular{
     display:block;
